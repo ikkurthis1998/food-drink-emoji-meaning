@@ -131,7 +131,6 @@ function App() {
 
   function clickHandler(emoji) {
     var input = emoji.target.innerText;
-    console.log(input);
     if (emojiDictionary[input] !== undefined){
       setMeaning(emojiDictionary[input]);
     } else if (input === "") {
@@ -143,7 +142,6 @@ function App() {
 
   return (
     <div className="App">
-      <div>
         <h1>
           know your food emojis
         </h1>
@@ -162,7 +160,6 @@ function App() {
             )
           }
         </div>
-      </div>
     </div>
   );
 }
