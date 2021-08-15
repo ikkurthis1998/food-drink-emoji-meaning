@@ -145,6 +145,7 @@ function App() {
         <h1>
           know your food emojis
         </h1>
+        <p>Enter the emoji, you want to know the meaning for</p>
         <input type="text" className="input-area" onChange={getmeaning}></input>
         <h2>{meaning}</h2>
         <div className="emoji-list">
